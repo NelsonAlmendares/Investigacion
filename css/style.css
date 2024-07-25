@@ -20,6 +20,96 @@
     width: 110px;
     height: 38px;
 }
+.btn-news {
+    font-weight: 600;
+    background: #E10600;
+    color: #fff;
+    border: 1px solid #E10600;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    width: 180px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+    height: 38px;
+}
+.lists {
+    margin-top: 4rem;
+    background: #F3F3F3;
+}
+.contenido {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+box-icon {
+    margin-top: 5px;
+}
+.name {
+    margin-left: 1rem;
+    margin-right: 10px;
+}
+.name,.last_name {
+    font-size: 1.2rem;
+}
+.text-partener {
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.badge_custom {
+    font-weight: 600;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background: #F8F9FA;
+}
+
+/* Colors */
+.color1 {
+    color: #3671C6;
+    background: #3671C6;
+    width: 6px;
+    height: 19px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 1.8rem;
+}
+.color2 {
+    color: #FF8000;
+    background: #FF8000;
+    width: 6px;
+    height: 19px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 1.8rem;
+}
+.color3 {
+    color: #E80020;
+    background: #E80020;
+    width: 6px;
+    height: 19px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 1.8rem;
+}
+.color4 {
+    color: #27F4D2;
+    background: #27F4D2;
+    width: 6px;
+    height: 19px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 1.8rem;
+}
+
+
+.table-inside {
+    padding: 5rem;
+}
 .fia_logo {
     height: 26px;
     filter: grayscale(90%);
@@ -49,6 +139,9 @@
     font-size: 1.2rem;
     padding: 1rem;
 }
+.favicon-logo {
+    height: 15px !important;
+}
 .nav-flex {    
     width: 100%;
     display: flex;
@@ -58,6 +151,37 @@
 p {
     margin-top: 25px;
     font-size: 0.8rem;
+}
+.card {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin: 1px;
+}
+.card:hover {
+    background-color: #38383F;
+    color: white;
+}
+.img-f1 {
+    border-radius: 10px;
+    padding: 10px;
+}
+.info-cards {
+    padding-top: 5rem;
+}
+.card-margin {
+    margin: 10px;
+}
+.img-banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.borders {
+    border-style: solid;
+    border-width: 9px; /* Puedes ajustar el ancho del borde */
+    border-color: red; /* Cambia el color del borde según necesites */
+    border-right: none; /* Elimina el borde del lado derecho */
+    border-radius: 10px 0 0 10px;
 }
 
 .img_footer {   

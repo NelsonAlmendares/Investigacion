@@ -64,7 +64,6 @@ box-icon {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
-
     background: #F8F9FA;
 }
 
@@ -191,4 +190,53 @@ p {
 }
 footer {
     background: #15151E;
+}
+
+/* Media Querys */
+@media only screen and (max-width: 768px) {
+    .table-inside {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+    .color1, .color2, .color3, .color4 {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .name {
+        margin-left: 0.5rem;
+        margin-right: 10px;
+    }
+    .name,.last_name {
+        font-size: 0.9rem;
+    }
+    .badge_custom {
+        font-weight: 600;
+        font-size: 0.7rem;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;        
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .table-inside>.card>.card-body {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .align_items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .text-partener {
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 12px;
+    }
 }
